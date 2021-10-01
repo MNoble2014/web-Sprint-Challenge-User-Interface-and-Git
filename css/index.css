@@ -56,6 +56,29 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    background-size: cover;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -112,6 +135,76 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box2 {
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box3 {
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box4 {
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box5 {
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box6 {
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box7 {
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box8 {
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box9 {
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
+.box10 {
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +217,49 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px dotted black;
+}
+
+.img, .text {
+    width: 50%;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.text div {
+    width: 60%;
+}
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.strategy {
+    background-image: url("img/about-plan.png");
+}
+
+.howwework {
+    background-image: url("img/about-working.png");
+}
+
+.placeswework {
+    background-image: url("img/about-office.png");
+}
+
+.collaboration {
+    background-image: url("img/about-meeting");
 }
 
 footer {
